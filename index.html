@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="MainApp">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- IE Compatibility Meta -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- First Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Developers Team</title>
+    <link rel='stylesheet' href='css/bootstrap.css' />
+    <link rel='stylesheet' href='css/font-awesome.min.css' />
+    <link rel='stylesheet' href='css/style.css' />
+    <link rel='stylesheet' href='css/default_theme.css' />
+    <link rel='stylesheet' href='css/hover.css' />
+    <link rel='stylesheet' href='css/animate.css' />
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700'> </head>
+
+<body>
+    <!-- Start Section Tool Box -->
+    <section class="option-box">
+        <div class="color-option">
+            <h4>Color Option</h4>
+            <ul class="list-unstyled">
+                <li data-value="css/default_theme.css"></li>
+                <li data-value="css/purple_theme.css"></li>
+                <li data-value="css/blue_theme.css"></li>
+                <li data-value="css/yellow_theme.css"></li>
+            </ul>
+        </div> <i class="fa fa-gear fa-3x gear-check"></i> </section>
+    <!-- End Section Tool Box -->
+    <!--    Nav bar start-->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#ournavbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand wobble-horizontal" href="#">Elzero <span>Inc.</span></a> </div>
+            <div class="collapse navbar-collapse" id="ournavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#/">Home</a></li>
+                    <li><a href="#/about">About</a></li>
+                    <li><a href="#/clints">Our clints</a></li>
+                    <li><a href="#/contactus">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Of The Container -->
+    </nav>
+    <!--        end of nav bar-->
+    <div ng-view> 
+    
+    
+    
+    </div>
+    <!-- Angular CDNs   -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.js"></script>
+    <!--    end of-->
+    <!--   Angular app links to files-->
+    <script src="app.js"></script>
+    <script src="components/home/home.js"></script>
+    <script src="components/about/about.js"></script>
+    <script src="components/clints/clints.js"></script>
+    <script src="components/contactus/contactus.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+    <!--     End of -->
+    <!--     Angular CDNs-->
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
+    <!--    End of-->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+</body>
+
+</html>
